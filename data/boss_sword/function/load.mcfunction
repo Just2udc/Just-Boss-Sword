@@ -1,0 +1,1 @@
+function jj_cosmic_sword:score

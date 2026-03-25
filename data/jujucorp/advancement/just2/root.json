@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {"profile":"Just2UDC"}
+		},
+		"title": "Just2",
+		"frame": "challenge",
+		"description": [
+			"All loaded Just2's data packs"
+		],
+		"background": "minecraft:block/black_concrete",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

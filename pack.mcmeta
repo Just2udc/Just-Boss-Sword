@@ -1,0 +1,10 @@
+{
+    "pack": {
+        "description": "Just a mod that lets you borrow the powers of the different boss",
+    "min_format": [
+      101,
+      80
+    ],
+    "max_format": 101
+    }
+}

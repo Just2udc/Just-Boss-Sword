@@ -1,0 +1,4 @@
+execute as @e[nbt={SelectedItem:{id:"minecraft:netherite_sword",components:{"minecraft:custom_data":{isCosmicSword:1,astralPower:1}}}}] run function jj_cosmic_sword:run_ability/passive
+execute as @e[nbt={Inventory:[{Slot:-106b,id:"minecraft:netherite_sword",components:{"minecraft:custom_data":{isCosmicSword:1,astralPower:1}}}]}] run function jj_cosmic_sword:run_ability/passive
+execute as @e[nbt={SelectedItem:{id:"minecraft:netherite_sword",components:{"minecraft:custom_data":{isCosmicSword:1,astralPower:2}}}}] run function jj_cosmic_sword:run_ability/passive
+execute as @e[nbt={Inventory:[{Slot:-106b,id:"minecraft:netherite_sword",components:{"minecraft:custom_data":{isCosmicSword:1,astralPower:2}}}]}] run function jj_cosmic_sword:run_ability/passive

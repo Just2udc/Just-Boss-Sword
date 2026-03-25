@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+      "id": "netherite_sword",
+      "components": {
+        "minecraft:item_model": "boss_sword:lv2"
+      }
+    },
+		"title": "Just Boss Sword",
+		"frame": "task",
+		"description": "Now be the boss",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"parent": "jujucorp:just2/root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}
