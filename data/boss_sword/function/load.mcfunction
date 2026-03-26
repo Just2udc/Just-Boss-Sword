@@ -1,1 +1,1 @@
-function jj_cosmic_sword:score
+function boss_sword:score

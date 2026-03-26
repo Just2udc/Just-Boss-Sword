@@ -13,7 +13,7 @@
     "announce_to_chat": false,
     "hidden": true
   },
-  "parent": "boss_sword:juju/juju_cosmic_sword",
+  "parent": "boss_sword:just2/juju_cosmic_sword",
   "criteria": {
     "click": {
       "trigger": "minecraft:using_item",
