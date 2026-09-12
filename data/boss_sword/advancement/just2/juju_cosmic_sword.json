@@ -3,7 +3,7 @@
 		"icon": {
       "id": "netherite_sword",
       "components": {
-        "minecraft:item_model": "boss_sword:lv2"
+        "minecraft:item_model": "boss-sword:cosmic_lv2"
       }
     },
 		"title": "Just Boss Sword",

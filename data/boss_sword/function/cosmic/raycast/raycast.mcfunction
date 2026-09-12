@@ -2,6 +2,8 @@ execute as @e[tag=!raycasting,type=!#boss_sword:not_mob,dx=0] positioned ~-0.99 
 
 scoreboard players add @s boss_sword.cosmic.rc 1
 
-particle minecraft:sonic_boom ~ ~ ~ 0 0 0 0 0
+scoreboard players add @s boss_sword.cosmic.raycast_particles 1
+execute if score @s boss_sword.cosmic.raycast_particles matches 10.. run particle minecraft:sonic_boom ~ ~ ~ 0 0 0 0 1 force
+execute if score @s boss_sword.cosmic.raycast_particles matches 10.. run scoreboard players reset @s boss_sword.cosmic.raycast_particles
 
 execute if score @s boss_sword.cosmic.rc matches ..1000 positioned ^ ^ ^0.1 rotated ~ ~ unless block ~ ~ ~ #minecraft:wool run function boss_sword:cosmic/raycast/raycast

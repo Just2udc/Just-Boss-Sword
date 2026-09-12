@@ -5,5 +5,6 @@ scoreboard objectives add boss_sword.cosmic.rc dummy
 scoreboard objectives add boss_sword.cosmic.rc.collision dummy
 scoreboard objectives add boss_sword.cosmic.pickUpDragonEgg minecraft.picked_up:minecraft.dragon_egg
 scoreboard objectives add boss_sword.cosmic.max1 dummy
+scoreboard objectives add boss_sword.cosmic.raycast_particles dummy
 scoreboard objectives add setCosmicReaload trigger
 execute unless score !reload boss_sword.cosmic.timer matches 0.. run scoreboard players set !reload boss_sword.cosmic.timer 1800
