@@ -1,1 +1,0 @@
-- Fixed a bug where the cosmic sword custom reload time would reset every time the pack was reloaded.
